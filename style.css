@@ -1,0 +1,31 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.row{
+  
+    display: flex;
+    justify-content: space-between;
+}
+.calculator{
+    width:565px;
+    height:auto;
+    margin-top: 120px;
+    box-shadow:4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+}
+.number ,.equal ,.operator{
+    padding:20px 65px;
+    
+}
+.reset{
+    padding:20px 60px;
+    
+}
+#display{
+    flex:1;
+    border:solid black 1px;
+    border-radius:2px;
+    margin-bottom:5px;
+    padding:0px 9px;
+}
