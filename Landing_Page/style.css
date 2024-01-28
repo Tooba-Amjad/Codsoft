@@ -1,0 +1,113 @@
+header {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+header img {
+    width: auto;
+    height: 100px;
+
+}
+
+nav ul {
+    display: flex;
+    margin: 20px 200px;
+    justify-content: center;
+    background-color: #ccc;
+    border-radius: 10px;
+
+}
+
+nav li {
+    list-style-type: none;
+    margin: 0px 40px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: 32px;
+}
+
+nav li a:hover {
+    color: yellow;
+}
+
+main {
+    margin: 20px 90px;
+
+}
+
+.full-width-row {
+    height: 190px;
+    background-image: url(Assests/option\ \ \(3\).jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+.full-width-row h2 {
+    /* margin:30px 20px ; */
+    font-weight: bold;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+
+}
+
+main .three-columns-row {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+main .column {
+    background-color: #ccc;
+    margin: 20px 25px 20px 5px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.column img {
+    width: 290px;
+    height: 190px;
+    object-fit: cover;
+}
+
+.heading {
+    display: flex;
+
+}
+
+.heading img {
+    margin-right: 20px;
+    height: 50px;
+    width: auto;
+}
+
+footer {
+    margin: 20px 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_img img {
+    width: auto;
+    height: 50px;
+
+}
+
+.footer_img {
+    margin-top: 20px
+}
+
+.copyright {
+    margin-top: 20px;
+    border-top: solid yellow 3px;
+    border-radius: 9px;
+}
